@@ -3,8 +3,8 @@
     <h1 align="center">Classification des scenes naturelles dans les images<br>(Intel Image classification Challenge)<br> processus initie a partir de zero et valide avec des modele pre-entraines</h1>
     <img align="center" src="images/dataset.png" />
     <hr>
-	<h4>Reconnaissance et detection d'objet - Travaux pratiques </h4>
-    <h2>explication a propos du Reseau de Neurone(CNN)</h2>
+	<h2>Reconnaissance et detection d'objet - Travaux pratiques </h2>
+    <h4>explication a propos du Reseau de Neurone(CNN)</h4>
     <p>
       & emsp; Dans les réseaux de neurones, le réseau de neurones convolutifs (ConvNets ou CNN) est l'une des principales catégories de reconnaissance d'images, de classification d'images. Les détections d'objets, les visages de reconnaissance, etc., sont quelques-uns des domaines dans lesquels les CNN sont largement utilisés. <br>
       & emsp; Le nom «<i> réseau neuronal convolutif </i>» indique que le réseau utilise une opération mathématique appelée convolution. Les réseaux convolutifs sont un type spécialisé de réseaux de neurones qui utilisent la convolution à la place de la multiplication matricielle générale dans au moins une de leurs couches. <br>
