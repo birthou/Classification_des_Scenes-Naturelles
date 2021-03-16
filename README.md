@@ -12,15 +12,7 @@
       & emsp; Les CNN sont des versions régularisées de perceptrons multicouches. Les perceptrons multicouches signifient généralement des réseaux entièrement connectés, c'est-à-dire que chaque neurone d'une couche est connecté à tous les neurones de la couche suivante. La «connectivité totale» de ces réseaux les rend sujets à un surapprentissage des données. Les moyens typiques de régularisation incluent l'ajout d'une forme de mesure de la grandeur des poids à la fonction de perte.
     </p>
     <h3><a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">1. CNN Architecture</a></h3>
-    <img align="center" src="images/cnn_architecture.jpeg" />
     <h4>1. a) Convolutional</h4>
-    <p>
-       & emsp; Lors de la programmation d'un CNN, l'entrée est un tenseur de forme (nombre d'images) x (hauteur de l'image) x (largeur de l'image) x (profondeur de l'image). Ensuite, après avoir traversé une couche convolutive, l'image devient abstraite dans une carte d'entités, avec la forme (nombre d'images) x (hauteur de la carte d'entités) x (largeur de la carte d'entités) x (canaux de la carte d'entités). Une couche convolutive dans un réseau de neurones doit avoir les attributs suivants: <ul>
-       <li> Noyaux convolutifs définis par une largeur et une hauteur (hyper-paramètres)
-       <li> Le nombre de canaux d'entrée et de canaux de sortie (hyper-paramètre)
-       <li> La profondeur du filtre de convolution (les canaux d'entrée) doit être égale au nombre de canaux (profondeur) de la carte d'entités d'entrée
-     </ul>
-     </p>
     <h4>1. b) Pooling</h4>
     <h4>1. c) Fully connected</h4>
     <h4>1. d) Receptive field</h4>
